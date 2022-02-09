@@ -1,0 +1,30 @@
+/*
+–-----------------------------------------------------------------------------------------------------------------------------------------
+Q3. Swati bought 600 shares of stock at a price of $21.77 per share. She must pay her stock broker a 2% commission for the transaction. Write a program that calculates the display the following:
+-The amount paid for the stock alone (without the commission)
+-The amount of the commission
+-The total amount paid
+–----------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Android_App.Page5" Padding="40">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+            <Label FontSize="Header" Text="Welcome to Shares and Stocks."
+                HorizontalOptions="CenterAndExpand" />
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+            <Entry Placeholder="Enter Numbers of Shares for Stock" x:Name="txtstock" />
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+            <Label FontSize="Medium" TextColor="OrangeRed" x:Name="lblShares" />
+            <Label FontSize="Medium" TextColor="Red" x:Name="lblComm" />
+            <Label FontSize="Medium" TextColor="DarkRed" x:Name="lblTamt" />
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+            <Button Text="Share Amount" Clicked="btnPay" />
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
