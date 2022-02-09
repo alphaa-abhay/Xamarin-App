@@ -1,0 +1,34 @@
+/*
+–-----------------------------------------------------------------------------------------------------------------------------------------
+Q2. Suppose there is an ATM machine and you want to withdrawal some amount. Currency is available in ATM:2000 Rs. 500 Rs and 100 Rs. 
+Find out total no. of currency according to withdrawal amount. Make sure withdrawal amount should be multiple of 100.
+For eg:
+Input: Enter withdrawal amount
+2500
+output: Total 2000 note: 1
+Total 500 note: 1
+Total 100 note: 0
+–----------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Android_App.Page4" Padding="40">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+            <Label FontSize="Header" Text="Welcome to Bank ATM!"
+                HorizontalOptions="CenterAndExpand" />
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+            <Entry Placeholder="Enter amount" x:Name="txtAmount" />
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+            <Label FontSize="Medium" TextColor="DeepPink" x:Name="lblTwo" />
+            <Label FontSize="Medium" TextColor="DarkGreen" x:Name="lblFive" />
+            <Label FontSize="Medium" TextColor="DarkBlue" x:Name="lblSau" />
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+            <Button Text="WITHDRAWAL" Clicked="btnWithdrawal" />
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
