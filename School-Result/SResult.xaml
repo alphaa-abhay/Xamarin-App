@@ -1,0 +1,34 @@
+/*
+–-----------------------------------------------------------------------------------------------------------------------------------------
+Q1. Create a app that will display if a students is pass or not exam (50% or more is pass). If the student is Pass than your program should display grade:
+85% or more E for excellent
+75% or more but less than 85% O for Outstanding
+65% or more but less than 75% G for good
+Less than 65% S for satisfactory
+–-----------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Android_App.Page3" Padding="40">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+            <Label FontSize="Header" Text="School Result."
+                HorizontalOptions="CenterAndExpand" />
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+            <Entry Placeholder="Enter Marks in Mathematics" x:Name="txtmaths" />
+            <Entry Placeholder="Enter Marks in English" x:Name="txteng" />
+            <Entry Placeholder="Enter Marks in Computer Science" x:Name="txtcs" />
+            <Entry Placeholder="Enter Marks in Chemistry" x:Name="txtchem" />
+            <Entry Placeholder="Enter Marks in Physics" x:Name="txtphy" />
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+            <Label FontSize="Medium" TextColor="DarkGreen" x:Name="lblResult" />
+            <Label FontSize="Medium" TextColor="DarkGreen" x:Name="lblGrade" />
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+            <Button Text="SUBMIT" Clicked="btnPer" />
+            <Label FontSize="Medium" TextColor="Azure" Text=" "/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
