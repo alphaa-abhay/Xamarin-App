@@ -1,6 +1,6 @@
 /*
 –-----------------------------------------------------------------------------------------------------------------------------------------
-Create a app that will display if a students is pass or not exam (50% or more is pass). If the student is Pass than your program should display grade:
+Q1. Create a app that will display if a students is pass or not exam (50% or more is pass). If the student is Pass than your program should display grade:
 85% or more E for excellent
 75% or more but less than 85% O for Outstanding
 65% or more but less than 75% G for good
