@@ -25,7 +25,7 @@ Total 100 note: 0
             <Label FontSize="Medium" TextColor="Azure" Text=" "/>
             <Label FontSize="Medium" TextColor="DeepPink" x:Name="lblTwo" />
             <Label FontSize="Medium" TextColor="DarkGreen" x:Name="lblFive" />
-            <Label FontSize="Medium" TextColor="DarkBlue" x:Name="lblSau" />
+            <Label FontSize="Medium" TextColor="DodgerBlue" x:Name="lblSau" />
             <Label FontSize="Medium" TextColor="Azure" Text=" "/>
             <Button Text="WITHDRAWAL" Clicked="btnWithdrawal" />
             <Label FontSize="Medium" TextColor="Azure" Text=" "/>
