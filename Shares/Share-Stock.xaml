@@ -19,9 +19,9 @@ Q3. Swati bought 600 shares of stock at a price of $21.77 per share. She must pa
             <Label FontSize="Medium" TextColor="Azure" Text=" "/>
             <Entry Placeholder="Enter Numbers of Shares for Stock" x:Name="txtstock" />
             <Label FontSize="Medium" TextColor="Azure" Text=" "/>
-            <Label FontSize="Medium" TextColor="OrangeRed" x:Name="lblShares" />
-            <Label FontSize="Medium" TextColor="Red" x:Name="lblComm" />
-            <Label FontSize="Medium" TextColor="DarkRed" x:Name="lblTamt" />
+            <Label FontSize="Medium" TextColor="Orange" x:Name="lblShares" />
+            <Label FontSize="Medium" TextColor="Gold" x:Name="lblComm" />
+            <Label FontSize="Medium" TextColor="Yellow" x:Name="lblTamt" />
             <Label FontSize="Medium" TextColor="Azure" Text=" "/>
             <Button Text="Share Amount" Clicked="btnPay" />
             <Label FontSize="Medium" TextColor="Azure" Text=" "/>
