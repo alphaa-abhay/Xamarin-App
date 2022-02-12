@@ -32,8 +32,7 @@ namespace Android_App
 			   commissionPerTran = .02,
 			   stockBasePrice,
 			   commissionAddOn,
-			   totalStockPrice,
-			   sellStockAt;
+			   totalStockPrice;
 			  stockBasePrice = numShares* sharePrice;
 			  commissionAddOn = stockBasePrice* commissionPerTran;
 			  totalStockPrice = stockBasePrice + commissionAddOn;
